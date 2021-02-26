@@ -7,10 +7,10 @@ import org.springframework.web.bind.annotation.*;
 @Controller
 public class SalutController {
 
-    @GetMapping({"/", "/hello/{name}"})
-    public String hello(Model model, @PathVariable String name) {
+    @GetMapping({"/", "/salut/{name}"})
+    public String salut(Model model, @PathVariable String name) {
         model.addAttribute("name", name);
-        return "hello";
+        return "salut";
     }
 
     @RequestMapping(value = "/translate", method = RequestMethod.POST)

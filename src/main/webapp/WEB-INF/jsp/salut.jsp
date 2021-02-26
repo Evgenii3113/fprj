@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Hello ${name}!</title>
+    <title>Salut, ${name}!</title>
     <link href="/css/main.css" rel="stylesheet">
 </head>
 <body>
-<h2 class="hello-title">Hello ${name}!</h2>
+<h2 class="hello-title">Salut, ${name}!</h2>
 
 <form action="/translate" method="POST">
     <div class="form-group">
@@ -16,7 +16,7 @@
             </textarea>
         </div>
     </div>
-    <input type="submit" value="Submit">
+    <input type="submit" value="Click">
 </form>
 
 <script src="/js/main.js"></script>
